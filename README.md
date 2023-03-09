@@ -3,7 +3,7 @@ POC to test graceful shutdown in go - kafka consumer via shopify/sarma
 
 ## Requirements:
 
-- Pyhton 3.x
+- Python 3.x
 - [HTTPx CLI](https://github.com/servicex-sh/httpx#how-to-install) - httpx is a CLI to execute requests from JetBrains Http File. See more docs [here](https://httpx.sh/docs/tutorial-basics/misc)
 
 ## Run test
