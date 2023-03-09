@@ -1,0 +1,27 @@
+### print my ip
+//@name my-ip
+GET https://httpbin.org/ip
+
+### publish Kafka message
+//@name kafka-pub
+PUB test-topic-1
+URI: kafka://localhost:9092
+Content-Type: application/json
+
+{
+  "orderID": {{$randomInt}}
+}
+
+
+### publish Kafka message
+//@name kafka-pub-data
+PUB test-topic-1
+URI: kafka://localhost:9092
+Content-Type: application/json
+
+[ 1 ]
+
+### subscribe Kafka topic
+//@name kafka-sub
+SUB test-topic-1
+URI: kafka://localhost:9092
