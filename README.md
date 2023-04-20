@@ -1,6 +1,6 @@
 # gofunc-kafka-consumer-shutdown
 POC to test graceful shutdown in go - kafka consumer via shopify/sarma
-
+#now resolved
 ## Requirements:
 
 - Python 3.x
